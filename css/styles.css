@@ -1,13 +1,8 @@
-/*$color1: rgba(52, 63, 92, 1);
-$color2: rgba(35, 37, 61, 1);
-$color3: rgba(124, 64, 115, 1);
-$color4: rgba(152, 134, 122, 1);
-$color5: rgba(93, 67, 91, 1);*/
 
 body {
+  color: white;
   display: flex;
   flex-direction: column;
-  font-size: 30px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -15,87 +10,120 @@ section {
   border: 2px solid black;
   display: flex;
   flex-direction: column;
+  font-size: 40px;
   justify-content: center;
+  letter-spacing: .05em;
   min-height: 200px;
 }
 
 .main-content {
-  padding:   20px;
+  background-color: rgba(35, 37, 61, 1);
   order: -2;
+  padding: 20px 30px;
 }
 
 h1 {
   font-family: 'Crimson Text', serif;
-  font-size: 42px;
-  margin-bottom: 10px;
+  font-size: 50px;
+  margin: 25px 0;
 }
 
 .blurb {
-  font-size: 26px;
+  font-size: 38px;
+  line-height: 1.2;
 }
 
 .header-links {
-  margin: 10px;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-between;;
+  margin: 10px;
 }
 
 button {
-  font-family: 'Raleway', sans-serif;
+  background-color: #D49C97;
+  border: none;
+  border-radius: 40px;
+  color: rgba(35, 37, 61, 1);
   display: flex;
+  font-family: 'Raleway', sans-serif;
   justify-content: space-around;
-  border: 1px solid #BABABA;
-  background-color: #FFF;
-  font-size: 28px;
-  margin: 10px;
-  padding: 10px;
-  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  width: 325px;
 }
 
 span {
-  padding-top: 5%;
+  font-size: 40px;
+  letter-spacing: .1em;
+  padding-top: 2%;
 }
 
 .hero {
   background: url(../assets/neil.jpg) no-repeat;
   background-size: cover;
   height: 80vh;
-  width: 100%;
   order: -1;
+  width: 100%;
 }
 
 .icon img {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 h3 {
+  margin-top: 10px;
   text-align: center;
 }
 
-.ovals-area,
 .arrows {
+  display: flex;
+  flex: 1.5;
+  justify-content: space-between;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+.ovals-area {
+  flex: 1;
   height: 50px;
-  width: 100%;
+  margin: 25px;
 }
 
-.left-arrow,
-.right-arrow {
-  /*display: inline-block;*/
-  /*margin-top: 40vh;*/
-}
-
-.left-arrow {
-  float: left;
-  margin-left: 3%;
-}
-
-.right-arrow,
 .three-ovals {
   float: right;
-  margin-right: 3%;
 }
 
-.three-ovals {
-  margin-top: 4%;
+.section-two {
+  background-color: #23253D;
+}
+
+.section-three {
+  background-color: #343F5C;
+}
+
+.section-four{
+  background-color: #5D435B;
+}
+
+.section-five {
+  background-color: #AC5355;
+}
+
+.section-six {
+  background-color: #D49C97;
+}
+
+.section-seven {
+  background-color: #B69080;
+}
+
+.section-eight {
+  background-color: #343F5C;
 }
