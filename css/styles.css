@@ -1,56 +1,129 @@
-/*$color1: rgba(52, 63, 92, 1);
-$color2: rgba(35, 37, 61, 1);
-$color3: rgba(124, 64, 115, 1);
-$color4: rgba(152, 134, 122, 1);
-$color5: rgba(93, 67, 91, 1);*/
 
 body {
+  color: white;
   display: flex;
   flex-direction: column;
-  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 
 section {
   border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  justify-content: center;
+  letter-spacing: .05em;
   min-height: 200px;
-  text-align: center;
 }
 
 .main-content {
+  background-color: rgba(35, 37, 61, 1);
   order: -2;
+  padding: 20px 30px;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 50px;
+  margin: 25px 0;
+}
+
+.blurb {
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  margin: 10px;
+}
+
+button {
+  background-color: #D49C97;
+  border: none;
+  border-radius: 40px;
+  color: rgba(35, 37, 61, 1);
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+  width: 325px;
+}
+
+span {
+  font-size: 40px;
+  letter-spacing: .1em;
+  padding-top: 2%;
 }
 
 .hero {
   background: url(../assets/neil.jpg) no-repeat;
   background-size: cover;
   height: 80vh;
-  width: 100%;
   order: -1;
-}
-
-.ovals-area,
-.arrows {
-  height: 50px;
   width: 100%;
 }
 
-.left-arrow,
-.right-arrow {
-  /*display: inline-block;*/
-  /*margin-top: 40vh;*/
+.icon img {
+  margin-bottom: 15px;
 }
 
-.left-arrow {
-  float: left;
-  margin-left: 3%;
+h3 {
+  margin-top: 10px;
+  text-align: center;
 }
 
-.right-arrow,
+.arrows {
+  display: flex;
+  flex: 1.5;
+  justify-content: space-between;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+.ovals-area {
+  flex: 1;
+  height: 50px;
+  margin: 25px;
+}
+
 .three-ovals {
   float: right;
-  margin-right: 3%;
 }
 
-.three-ovals {
-  margin-top: 4%;
+.section-two {
+  background-color: #23253D;
+}
+
+.section-three {
+  background-color: #343F5C;
+}
+
+.section-four{
+  background-color: #5D435B;
+}
+
+.section-five {
+  background-color: #AC5355;
+}
+
+.section-six {
+  background-color: #D49C97;
+}
+
+.section-seven {
+  background-color: #B69080;
+}
+
+.section-eight {
+  background-color: #343F5C;
 }
